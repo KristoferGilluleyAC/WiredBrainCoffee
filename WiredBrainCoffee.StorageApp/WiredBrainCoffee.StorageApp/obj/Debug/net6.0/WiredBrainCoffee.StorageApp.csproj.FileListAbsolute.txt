@@ -1,0 +1,15 @@
+C:\Users\e0073483\PluralSight\WiredBrainCoffee\WiredBrainCoffee.StorageApp\WiredBrainCoffee.StorageApp\bin\Debug\net6.0\WiredBrainCoffee.StorageApp.exe
+C:\Users\e0073483\PluralSight\WiredBrainCoffee\WiredBrainCoffee.StorageApp\WiredBrainCoffee.StorageApp\bin\Debug\net6.0\WiredBrainCoffee.StorageApp.deps.json
+C:\Users\e0073483\PluralSight\WiredBrainCoffee\WiredBrainCoffee.StorageApp\WiredBrainCoffee.StorageApp\bin\Debug\net6.0\WiredBrainCoffee.StorageApp.runtimeconfig.json
+C:\Users\e0073483\PluralSight\WiredBrainCoffee\WiredBrainCoffee.StorageApp\WiredBrainCoffee.StorageApp\bin\Debug\net6.0\WiredBrainCoffee.StorageApp.dll
+C:\Users\e0073483\PluralSight\WiredBrainCoffee\WiredBrainCoffee.StorageApp\WiredBrainCoffee.StorageApp\bin\Debug\net6.0\WiredBrainCoffee.StorageApp.pdb
+C:\Users\e0073483\PluralSight\WiredBrainCoffee\WiredBrainCoffee.StorageApp\WiredBrainCoffee.StorageApp\obj\Debug\net6.0\WiredBrainCoffee.StorageApp.csproj.AssemblyReference.cache
+C:\Users\e0073483\PluralSight\WiredBrainCoffee\WiredBrainCoffee.StorageApp\WiredBrainCoffee.StorageApp\obj\Debug\net6.0\WiredBrainCoffee.StorageApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\e0073483\PluralSight\WiredBrainCoffee\WiredBrainCoffee.StorageApp\WiredBrainCoffee.StorageApp\obj\Debug\net6.0\WiredBrainCoffee.StorageApp.AssemblyInfoInputs.cache
+C:\Users\e0073483\PluralSight\WiredBrainCoffee\WiredBrainCoffee.StorageApp\WiredBrainCoffee.StorageApp\obj\Debug\net6.0\WiredBrainCoffee.StorageApp.AssemblyInfo.cs
+C:\Users\e0073483\PluralSight\WiredBrainCoffee\WiredBrainCoffee.StorageApp\WiredBrainCoffee.StorageApp\obj\Debug\net6.0\WiredBrainCoffee.StorageApp.csproj.CoreCompileInputs.cache
+C:\Users\e0073483\PluralSight\WiredBrainCoffee\WiredBrainCoffee.StorageApp\WiredBrainCoffee.StorageApp\obj\Debug\net6.0\WiredBrainCoffee.StorageApp.dll
+C:\Users\e0073483\PluralSight\WiredBrainCoffee\WiredBrainCoffee.StorageApp\WiredBrainCoffee.StorageApp\obj\Debug\net6.0\refint\WiredBrainCoffee.StorageApp.dll
+C:\Users\e0073483\PluralSight\WiredBrainCoffee\WiredBrainCoffee.StorageApp\WiredBrainCoffee.StorageApp\obj\Debug\net6.0\WiredBrainCoffee.StorageApp.pdb
+C:\Users\e0073483\PluralSight\WiredBrainCoffee\WiredBrainCoffee.StorageApp\WiredBrainCoffee.StorageApp\obj\Debug\net6.0\WiredBrainCoffee.StorageApp.genruntimeconfig.cache
+C:\Users\e0073483\PluralSight\WiredBrainCoffee\WiredBrainCoffee.StorageApp\WiredBrainCoffee.StorageApp\obj\Debug\net6.0\ref\WiredBrainCoffee.StorageApp.dll

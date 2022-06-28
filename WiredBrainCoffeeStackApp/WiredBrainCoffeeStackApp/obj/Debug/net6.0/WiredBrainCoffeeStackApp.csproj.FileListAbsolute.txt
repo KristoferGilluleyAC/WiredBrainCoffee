@@ -1,0 +1,15 @@
+C:\Users\e0073483\PluralSight\WiredBrainCoffee\WiredBrainCoffeeStackApp\WiredBrainCoffeeStackApp\bin\Debug\net6.0\WiredBrainCoffeeStackApp.exe
+C:\Users\e0073483\PluralSight\WiredBrainCoffee\WiredBrainCoffeeStackApp\WiredBrainCoffeeStackApp\bin\Debug\net6.0\WiredBrainCoffeeStackApp.deps.json
+C:\Users\e0073483\PluralSight\WiredBrainCoffee\WiredBrainCoffeeStackApp\WiredBrainCoffeeStackApp\bin\Debug\net6.0\WiredBrainCoffeeStackApp.runtimeconfig.json
+C:\Users\e0073483\PluralSight\WiredBrainCoffee\WiredBrainCoffeeStackApp\WiredBrainCoffeeStackApp\bin\Debug\net6.0\WiredBrainCoffeeStackApp.dll
+C:\Users\e0073483\PluralSight\WiredBrainCoffee\WiredBrainCoffeeStackApp\WiredBrainCoffeeStackApp\bin\Debug\net6.0\WiredBrainCoffeeStackApp.pdb
+C:\Users\e0073483\PluralSight\WiredBrainCoffee\WiredBrainCoffeeStackApp\WiredBrainCoffeeStackApp\obj\Debug\net6.0\WiredBrainCoffeeStackApp.csproj.AssemblyReference.cache
+C:\Users\e0073483\PluralSight\WiredBrainCoffee\WiredBrainCoffeeStackApp\WiredBrainCoffeeStackApp\obj\Debug\net6.0\WiredBrainCoffeeStackApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\e0073483\PluralSight\WiredBrainCoffee\WiredBrainCoffeeStackApp\WiredBrainCoffeeStackApp\obj\Debug\net6.0\WiredBrainCoffeeStackApp.AssemblyInfoInputs.cache
+C:\Users\e0073483\PluralSight\WiredBrainCoffee\WiredBrainCoffeeStackApp\WiredBrainCoffeeStackApp\obj\Debug\net6.0\WiredBrainCoffeeStackApp.AssemblyInfo.cs
+C:\Users\e0073483\PluralSight\WiredBrainCoffee\WiredBrainCoffeeStackApp\WiredBrainCoffeeStackApp\obj\Debug\net6.0\WiredBrainCoffeeStackApp.csproj.CoreCompileInputs.cache
+C:\Users\e0073483\PluralSight\WiredBrainCoffee\WiredBrainCoffeeStackApp\WiredBrainCoffeeStackApp\obj\Debug\net6.0\WiredBrainCoffeeStackApp.dll
+C:\Users\e0073483\PluralSight\WiredBrainCoffee\WiredBrainCoffeeStackApp\WiredBrainCoffeeStackApp\obj\Debug\net6.0\refint\WiredBrainCoffeeStackApp.dll
+C:\Users\e0073483\PluralSight\WiredBrainCoffee\WiredBrainCoffeeStackApp\WiredBrainCoffeeStackApp\obj\Debug\net6.0\WiredBrainCoffeeStackApp.pdb
+C:\Users\e0073483\PluralSight\WiredBrainCoffee\WiredBrainCoffeeStackApp\WiredBrainCoffeeStackApp\obj\Debug\net6.0\WiredBrainCoffeeStackApp.genruntimeconfig.cache
+C:\Users\e0073483\PluralSight\WiredBrainCoffee\WiredBrainCoffeeStackApp\WiredBrainCoffeeStackApp\obj\Debug\net6.0\ref\WiredBrainCoffeeStackApp.dll
