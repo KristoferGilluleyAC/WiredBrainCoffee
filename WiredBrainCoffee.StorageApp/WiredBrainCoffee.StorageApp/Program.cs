@@ -28,12 +28,18 @@ static void GetEmployeeById(IRepository<Employee> employeeRespository)
 {
     var employee = employeeRespository.GetById(2);
     Console.WriteLine($"Employee with Id 2: {employee.FirstName}");
+    employeeRespository.PrintNonsense();
 }
-static void AddEmployees(IRepository<Employee> employeeRespository)
+ void AddEmployees(IRepository<Employee> employeeRespository)
 {
-    employeeRespository.Add(new Employee { FirstName = "Julia" });
-    employeeRespository.Add(new Employee { FirstName = "Anna" });
-    employeeRespository.Add(new Employee { FirstName = "Thomas" });
+    var employees = new[]
+    {
+        new Employee { FirstName = "Julia" },
+        new Employee { FirstName = "Anna" },
+        new Employee { FirstName = "Thomas" },
+};
+    //RepositoryExtensions.AddBatch<Employee>(employeeRepository, employees);//
+    employeeRepository.AddBatch(employees);
     employeeRespository.Save();
 }
 static void AddManagers(IWriteRepository<Manager> managerRepository)
@@ -44,7 +50,12 @@ static void AddManagers(IWriteRepository<Manager> managerRepository)
 }
 static void AddOrganisations(IRepository<Orginisation> organisationRepository)
 {
-    organisationRepository.Add(new Orginisation { Name = "Plural Sight" });
-    organisationRepository.Add(new Orginisation { Name = "Globomantics" });
+    var organisation = new[]
+    {
+        new Orginisation { Name = "Plural Sight" },
+        new Orginisation { Name = "Globomantics" }
+    };
+    //RepositoryExtensions.AddBatch(organisationRepository, organisation);//before extension was created
+    organisationRepository.AddBatch(organisation);
     organisationRepository.Save();
 }
