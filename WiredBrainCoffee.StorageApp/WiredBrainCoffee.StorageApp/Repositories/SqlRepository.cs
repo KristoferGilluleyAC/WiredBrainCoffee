@@ -9,7 +9,7 @@ namespace WiredBrainCoffee.StorageApp.Repositories
         private readonly DbSet<T> _dbSet;
         public IEnumerable<T> GetAll()
         {
-            return _dbSet.ToList();
+            return _dbSet.OrderBy(item => item.Id).ToList();
         }
         public SqlRepository(DbContext dbContext)
         {
