@@ -3,7 +3,11 @@ using WiredBrainCoffee.StorageApp.Data;
 using WiredBrainCoffee.StorageApp.Entities;
 using WiredBrainCoffee.StorageApp.Repositories;
 
-var employeeRepository = new SqlRepository<Employee>(new StorageAppDbContext());
+var itemAdded = new ItemAdded(EmployeeAdded);
+
+
+
+var employeeRepository = new SqlRepository<Employee>(new StorageAppDbContext(), itemAdded);
 AddEmployees(employeeRepository);
 AddManagers(employeeRepository);
 
@@ -15,6 +19,12 @@ AddOrganisations(organisationRepository);
 WriteAllToConsole(organisationRepository);
 
 Console.ReadLine();
+
+void EmployeeAdded(object item)
+{
+    var employee = (Employee)item;
+    Console.WriteLine($"Employee added => {employee.FirstName}");
+}
 
 void WriteAllToConsole(IReadRepository<IEntity> repository)
 {
@@ -44,9 +54,22 @@ static void GetEmployeeById(IRepository<Employee> employeeRespository)
 }
 static void AddManagers(IWriteRepository<Manager> managerRepository)
 {
-    managerRepository.Add(new Manager { FirstName = "Sara" });
+    var saraManager = new Manager { FirstName = "Sara" };
+    var sareManagerCopy = saraManager.Copy();
+    managerRepository.Add(saraManager);
+
+    if(sareManagerCopy != null)
+    {
+        sareManagerCopy.FirstName += "_Copy";
+        managerRepository.Add(sareManagerCopy);
+    }
     managerRepository.Add(new Manager { FirstName = "Henry" });
     managerRepository.Save();
+
+    static Manager SaraManager()
+    {
+        return new Manager { FirstName = "Sara" };
+    }
 }
 static void AddOrganisations(IRepository<Orginisation> organisationRepository)
 {
