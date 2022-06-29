@@ -3,23 +3,22 @@ using WiredBrainCoffee.StorageApp.Entities;
 
 namespace WiredBrainCoffee.StorageApp.Repositories
 {
-
-
     public class SqlRepository<T> : IRepository<T> where T : class, IEntity
     {
         private readonly DbContext _dbContext;
-        private readonly Action<T>? _itemAddedCallBack;
+
         private readonly DbSet<T> _dbSet;
         public IEnumerable<T> GetAll()
         {
             return _dbSet.OrderBy(item => item.Id).ToList();
         }
-        public SqlRepository(DbContext dbContext, Action<T>? itemAddedCallBack = null)
+        public SqlRepository(DbContext dbContext)
         {
             _dbContext = dbContext;
-            _itemAddedCallBack = itemAddedCallBack;
             _dbSet = _dbContext.Set<T>();
         }
+
+        public event EventHandler<T>? ItemAdded;
         public T GetById(int id)
         {
             return _dbSet.Find(id);
@@ -28,7 +27,7 @@ namespace WiredBrainCoffee.StorageApp.Repositories
         public void Add(T item)
         {
             _dbSet.Add(item);
-            _itemAddedCallBack?.Invoke(item);
+            ItemAdded?.Invoke(this, item);
 
         }
         public void Remove(T item)
