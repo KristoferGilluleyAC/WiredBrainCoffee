@@ -3,11 +3,9 @@ using WiredBrainCoffee.StorageApp.Data;
 using WiredBrainCoffee.StorageApp.Entities;
 using WiredBrainCoffee.StorageApp.Repositories;
 
-var itemAdded = new ItemAdded<Employee>(EmployeeAdded);
+Action<Employee> itemAdded =EmployeeAdded;
 
-
-
-var employeeRepository = new SqlRepository<Employee>(new StorageAppDbContext(), itemAdded);
+var employeeRepository = new SqlRepository<Employee>(new StorageAppDbContext(),EmployeeAdded);
 AddEmployees(employeeRepository);
 AddManagers(employeeRepository);
 
